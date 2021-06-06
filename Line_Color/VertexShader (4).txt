@@ -1,0 +1,13 @@
+#version 400 core
+
+in vec3 vtxPosition;
+in vec3 a_color;
+out vec3 v_color;
+
+void main()
+{	
+	
+	gl_Position = vec4 (vtxPosition, 1);
+	gl_PointSize = 13.0f;
+	v_color=a_color;
+}
