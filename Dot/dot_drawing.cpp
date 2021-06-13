@@ -92,6 +92,8 @@ GLuint LoadShaders(const char* vertex_file_path, const char* fragment_file_path)
 
 	return ProgramID;
 }
+//Vertex Shader, Fragment Shader 연결하는 코드
+
 
 
 void renderScene(void)
